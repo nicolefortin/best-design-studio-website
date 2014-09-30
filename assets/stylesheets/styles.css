@@ -1,0 +1,109 @@
+* { box-sizing: border-box;
+}
+
+ol, ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.site-nav {
+  float: right;
+  margin-right: -4%;
+  margin-top:-3.5%;
+  width:25%;
+}
+
+.site-nav li {
+  display: inline;
+  margin:2%;
+}
+
+.site-header {
+  border-bottom: solid 3px maroon;
+  width: 80%;
+  position: fixed;
+  padding: 3% 0% 3% 0%;
+  background-color: white;
+}
+
+h1 {
+  font-size: 1.25em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-gallery li:nth-child(odd) {
+  float: left;
+  width: 48%;
+  margin-bottom:2%;
+  margin-top:2%;
+}
+
+.image-gallery li:nth-child(even) {
+  margin-right: 0%;
+  width: 48%;
+  float: right;
+  margin-bottom:2%;
+  margin-top:2%;
+}
+
+ .page-section p {
+  padding: 20% 0% 10% 0%;
+  float: right;
+  width: 48%;
+  line-height: 150%;
+}
+
+#contact {
+  position: relative;
+  left: 52%;
+  width: 48%;
+  padding: 10% 0% 10% 0%;
+}
+
+#contact li {
+  list-style: circle;
+  list-style-position: inside;
+  line-height: 150%;
+
+}
+
+.site-footer {
+  padding: 10% 0% 5% 0%;
+  width: 100%;
+  text-align: center;
+  border-top: solid 3px maroon;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: maroon;
+}
+a:hover {
+  text-decoration: none;
+  color: maroon;
+}
+a:active {
+  text-decoration: none;
+  color: maroon;
+}
