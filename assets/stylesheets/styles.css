@@ -9,36 +9,6 @@ li {
   padding: 0;
 }
 
-.container {
-  max-width: 80%;
-  margin: auto;
-}
-
-.clearfix:after {
-  content: "";
-  clear: both;
-  display: block;
-}
-
-.site-nav {
-  padding-left: 78%;
-  width: 100%;
-  margin-top: -4%;
-
-}
-.site-nav ol li {
-  margin: 2%;
-  display: inline-block;
-}
-
-.site-header {
-  border-bottom: solid 3px maroon;
-  width: 80%;
-  position: fixed;
-  padding: 3% 0% 3% 0%;
-  background-color: white;
-}
-
 h1 {
   font-size: 1.25em;
 }
@@ -47,6 +17,46 @@ img {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear:both;
+}
+
+.site-header {
+  border-bottom: solid 3px maroon;
+  max-width: 80%;
+  position: fixed;
+  padding: 3% 0% 3% 0%;
+  background-color: white;
+  right: 0;
+  top: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.site-title {
+  float: left;
+}
+
+.site-nav ol{
+  float: right;
+  margin-top: 2%;
+}
+.site-nav li {
+  display: inline-block;
+  margin-left: 2em;
 }
 
 .image-gallery li:nth-child(odd) {
@@ -64,18 +74,15 @@ img {
   margin-top:2%;
 }
 
- .page-section p {
-  padding: 20% 0% 10% 0%;
-  float: right;
-  width: 48%;
-  line-height: 150%;
+ #about {
+  padding: 20% 0% 0% 52%;
+  line-height: 1.5em;
+  margin: 0px;
 }
 
 #contact {
-  position: relative;
-  left: 52%;
-  width: 48%;
-  padding: 10% 0% 10% 0%;
+  padding: 10% 0% 10% 52%;
+  line-height: 1em;
 }
 
 #contact li {
